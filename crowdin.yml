@@ -4,3 +4,7 @@ files:
     multilingual_spreadsheet: 1
     first_line_contains_header: 1
     scheme: 'identifier,source_phrase,de'
+  - source: '*.csv'
+    translation: /folder/%two_letters_code%-%file_name%.%file_extension%
+    multilingual_spreadsheet: 1
+    scheme: 'identifier,source_phrase,de'
